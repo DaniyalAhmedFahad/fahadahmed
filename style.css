@@ -20,7 +20,7 @@ a{
     padding: 20px;
     border: 0.5px solid black;
     border-radius: 20px;
-    box-shadow: 0px 0px 100px #ffc637af;
+    box-shadow: 0px 0px 20px #7a7a7aaf;
 }
 .profile{
     display: flex;
@@ -28,6 +28,11 @@ a{
 .profile-left{
     width: 50%;
     margin-right: 170px;
+}
+.profile-left p{
+    margin-left: 30px;
+    font-size: 15.5px;
+    margin-top: -10px;
 }
 .experience-left .date{
 margin-left: 10px;
@@ -59,11 +64,13 @@ margin-left: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-left: 4px;
+    margin-top: 7px;
 
 }
 
 .profile-pic {
-    border: 15px groove #FFC537;
+    border: 15px groove #5298A8;
 }
 
 .name {
@@ -221,7 +228,7 @@ li{
     margin: 5px;
     padding: 5px 10px;
     font-weight: 500;
-    background-color: #FFC537;
+    background-color: #5298A8;
     border-radius: 5px;
 }
 
@@ -261,7 +268,7 @@ li{
 }
 
 .section-title {
-    background: #FFC537;
+    background:#69B7C3;
     padding: 15px;
     color: #000000;
     margin: 30px 0;
@@ -310,7 +317,7 @@ li{
     }
 
     .experience-right .topic{
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .experience {
@@ -353,4 +360,10 @@ li{
     .profile-right .section-title{
         border-radius: 0 50px 50px 0;
     } 
+}
+.power_BIlogo{
+    margin-left: 10px;
+}
+.power_BIlogo_date{
+    margin-left: -5px;
 }
